@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: brown;
+    background-color: #FFFFFF;
     font-family: 'Inter';
 }
 
@@ -136,4 +136,59 @@ nav{
     flex-direction: column;
     align-items: center; 
     text-align: center;   
+}
+
+.NOTE{
+    padding: 0px 120px;
+}
+
+.NOTE p{
+    font-size: 16px;
+    color: #627387;
+    padding-bottom: 44PX;
+}
+.hmsg{
+    padding-top: 60px;
+    text-align: center;
+}
+.hmsg h3{
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+
+.cardimg{
+    background-color: #f95555;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    padding: 14px;
+}
+
+.box h4{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600px;
+}
+
+.box {
+    height: 300px;
+    width: 322px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px rgb(219, 219, 219);
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }

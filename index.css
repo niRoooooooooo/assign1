@@ -142,7 +142,7 @@ nav{
     padding: 0px 120px;
 }
 
-.NOTE p{
+.NOTE p, .solbox p{
     font-size: 16px;
     color: #627387;
     padding-bottom: 44PX;
@@ -188,7 +188,68 @@ nav{
 }
 
 .cards{
+    height: 300px;
+    width: 1360px;
+
     display: flex;
     gap: 24px;
     justify-content: center;
+
+    margin: 0 auto;
+}
+
+#sol {
+    padding: 120px 0px; /* 120px top/bottom and left/right */
+    box-sizing: border-box;
+    display: flex;                 
+    justify-content: center;   
+}
+
+.solbox {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+
+
+.soldet {
+    padding: 102px 0;
+}
+
+
+.soldet h6{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.solbox h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    padding: 16px 0;
+    line-height: 1.2;
+}
+
+ul li {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    list-style: none;
+
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.solbox h1 span {
+    display: block; 
 }

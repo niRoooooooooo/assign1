@@ -199,7 +199,7 @@ nav{
 }
 
 #sol {
-    padding: 120px 0px; /* 120px top/bottom and left/right */
+    padding: 120px 0px; 
     box-sizing: border-box;
     display: flex;                 
     justify-content: center;   
@@ -255,22 +255,28 @@ ul li {
 
 
 
-.redbox{
+.redbox {
     max-width: 1600px;
     height: 506px;
+
     padding-left: 120px;
     padding-right: 120px;
     padding-bottom: 120px;
 
+    display: flex;
+    justify-content: center;
     align-items: center;
+
+    margin: 0 auto;
 }
 
 .databox{
     background-color: #f7f6f2;
     text-align: center;
-
     padding: 80px 40px;
-    
+
+    max-width: 1360px;
+    width: 100%;
 }
 
 .databox h1{
@@ -279,11 +285,14 @@ ul li {
     padding-bottom: 16px;
 }
 
-.databox button{
-    display: flex;
-    align-items: center;
+.databox button {
+    display: flex;     
+    align-items: center;    
     gap: 10px;
+
+    margin: 0 auto;
 }
+
 
 .databox p{
     font-size: 16px;
@@ -293,5 +302,88 @@ ul li {
 .low{
     font-size: 16px;
     color: #627387;
-    padding: 0px;
+    padding-top: 16px;
 }
+
+.bluebox{
+
+    background-color: #001931;
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-bottom: 30px;
+    padding-right: 120px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 80px;
+}
+
+.fotim{
+    max-width: 350px;
+    width: 100%;
+}
+
+.horz{
+    max-width: 220px;
+    width: 100%;
+}
+
+.bluebox p{
+    font-size: 16px;
+    color: #fafafa;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bluebox h6{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+
+    padding-bottom: 16px;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.links a{
+    max-width: 20px;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.btn:hover {
+    background-color: #279e58;
+    color: #e0f2e9;
+    cursor: pointer;
+}
+
+.btn-outline:hover {
+    background-color: #30B868;
+    color: white;
+    border-color: #30B868;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #30B868;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgba(48, 184, 104, 0.15);
+    border-radius: 6px;
+    padding: 2px 6px;
+}
+

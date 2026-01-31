@@ -218,8 +218,6 @@ nav{
     box-sizing: border-box;
 }
 
-
-
 .soldet {
     padding: 102px 0;
 }
@@ -252,4 +250,48 @@ ul li {
 
 .solbox h1 span {
     display: block; 
+}
+
+
+
+
+.redbox{
+    max-width: 1600px;
+    height: 506px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+
+    align-items: center;
+}
+
+.databox{
+    background-color: #f7f6f2;
+    text-align: center;
+
+    padding: 80px 40px;
+    
+}
+
+.databox h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.databox button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.databox p{
+    font-size: 16px;
+    color: #627387;
+    padding-bottom: 24px;
+}
+.low{
+    font-size: 16px;
+    color: #627387;
+    padding: 0px;
 }

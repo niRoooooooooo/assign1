@@ -198,30 +198,27 @@ nav{
     margin: 0 auto;
 }
 
-#sol {
-    padding: 120px 0px; 
+.sol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    margin: 0 auto;
     box-sizing: border-box;
-    display: flex;                 
-    justify-content: center;   
 }
 
 .solbox {
     max-width: 1360px;
     width: 100%;
-    margin: 0; 
-    padding: 0;
-
     display: flex;
     gap: 60px;
     justify-content: center;
-    align-items: flex-start;
-    box-sizing: border-box;
 }
 
-.soldet {
-    padding: 102px 0;
-}
 
+.soldet{
+    padding: 102px 0px;
+}
 
 .soldet h6{
     color: #30B868;
@@ -229,13 +226,17 @@ nav{
     font-weight: 500px;
 }
 
+
 .solbox h1{
+    max-width: 700px;
+    width: 100%;
     font-size: 48px;
     font-weight: bold;
     margin: 0;
-    padding: 16px 0;
+    padding-bottom: 16px;
     line-height: 1.2;
 }
+
 
 ul li {
     font-size: 16px;
@@ -243,17 +244,11 @@ ul li {
     padding-bottom: 16px;
     list-style: none;
 
+
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 10px;
 }
-
-.solbox h1 span {
-    display: block; 
-}
-
-
-
 
 .redbox {
     max-width: 1600px;
@@ -387,3 +382,23 @@ a:hover {
     padding: 2px 6px;
 }
 
+.bt .btn{
+    background-color: #30B868;
+    color: white;
+    border: none;
+    padding: 12px 16px;   
+    border-radius: 4px;
+    font-size: 16px;      
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+}
+  
+.bt .btn:hover {
+    background-color: #279e58;
+    color: #e0f2e9;
+    cursor: pointer;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
